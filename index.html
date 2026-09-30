@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Como Ficar Rico em 1 Ano?</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #08111f;
+    color: white;
+    line-height: 1.6;
+}
+
+header {
+    padding: 55px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #17265c, #0b1020);
+}
+
+header h1 {
+    font-size: 42px;
+    margin: 0 0 12px;
+}
+
+header p {
+    color: #d4ddf5;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1050px;
+    margin: auto;
+    padding: 25px 18px 50px;
+}
+
+.aviso {
+    background: #121f35;
+    border-left: 4px solid #6ea8fe;
+    padding: 18px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 17px;
+}
+
+.card {
+    background: #101d31;
+    border: 1px solid #293d5c;
+    border-radius: 17px;
+    padding: 21px;
+    transition: 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+.card h2 {
+    color: #8ab5ff;
+}
+
+.card p {
+    color: #b6c2d8;
+}
+
+button {
+    border: none;
+    border-radius: 9px;
+    padding: 11px 15px;
+    background: #6ea8fe;
+    color: #07111e;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #91bdff;
+}
+
+.detalhes {
+    display: none;
+    margin-top: 17px;
+    padding: 16px;
+    background: #14243d;
+    border-radius: 12px;
+}
+
+.detalhes.aberto {
+    display: block;
+}
+
+.detalhes h3 {
+    color: #9fc2ff;
+}
+
+.exemplo {
+    background: #0d192b;
+    padding: 13px;
+    border-radius: 10px;
+    margin: 14px 0;
+}
+
+.progresso {
+    background: #101d31;
+    padding: 20px;
+    border-radius: 16px;
+    margin-bottom: 25px;
+}
+
+.barra {
+    width: 100%;
+    height: 12px;
+    background: #293950;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.barra-interna {
+    height: 100%;
+    width: 0%;
+    background: #61d095;
+    transition: 0.3s;
+}
+
+.meta {
+    margin: 8px 0;
+}
+
+.meta input {
+    margin-right: 8px;
+}
+
+.regras {
+    margin-top: 35px;
+}
+
+.regra-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 15px;
+}
+
+.regra {
+    background: #101d31;
+    padding: 17px;
+    border-radius: 13px;
+    border: 1px solid #293d5c;
+}
+
+footer {
+    text-align: center;
+    color: #8492aa;
+    padding: 30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1>💰 Como Ficar Rico em 1 Ano?</h1>
+
+<p>
+Um plano educativo para aprender a ganhar dinheiro,
+controlar gastos e desenvolver habilidades.
+</p>
+
+</header>
+
+
+<main class="container">
+
+<div class="aviso">
+
+<strong>Importante:</strong>
+
+Não existe uma fórmula garantida para ficar rico em apenas
+um ano. O objetivo deste site é ensinar educação financeira,
+desenvolvimento de habilidades e criação de oportunidades.
+
+</div>
+
+
+<!-- PROGRESSO -->
+
+<div class="progresso">
+
+<strong>📊 Seu progresso</strong>
+
+<p id="textoProgresso">
+0 de 12 meses concluídos
+</p>
+
+<div class="barra">
+
+<div class="barra-interna" id="barra"></div>
+
+</div>
+
+</div>
+
+
+<!-- ETAPAS -->
+
+<div class="grid">
+
+
+<!-- ETAPA 1 -->
+
+<div class="card">
+
+<h2>📚 1–3 meses</h2>
+
+<p>
+Construir a base financeira e escolher uma habilidade.
+</p>
+
+<button onclick="abrir('etapa1')">
+Ver detalhes
+</button>
+
+
+<div id="etapa1" class="detalhes">
+
+<h3>🎯 Objetivo</h3>
+
+<p>
+Aprender como o dinheiro funciona e começar a desenvolver
+uma habilidade que possa gerar valor.
+</p>
+
+<ul>
+
+<li>Anotar seus gastos.</li>
+
+<li>Escolher uma habilidade.</li>
+
+<li>Estudar regularmente.</li>
+
+<li>Criar projetos para praticar.</li>
+
+</ul>
+
+
+<div class="exemplo">
+
+<strong>Exemplo de meta:</strong>
+
+Terminar um curso gratuito e criar 3 projetos
+para demonstrar o que você aprendeu.
+
+</div>
+
+
+<div class="meta">
+
+<label>
+<input type="checkbox" data-mes="1">
+Escolhi uma habilidade.
+</label>
+
+</div>
+
+
+<div class="meta">
+
+<label>
+<input type="checkbox" data-mes="2">
+Criei meus primeiros projetos.
+</label>
+
+</div>
+
+
+<div class="meta">
+
+<label>
+<input type="checkbox" data-mes="3">
+Comecei a registrar meu dinheiro.
+</label>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<!-- ETAPA 2 -->
+
+<div class="card">
+
+<h2>🚀 4–6 meses</h2>
+
+<p>
+Transformar uma habilidade em uma oportunidade de renda.
+</p>
+
+<button onclick="abrir('etapa2')">
+Ver detalhes
+</button>
+
+
+<div id="etapa2" class="detalhes">
+
+<h3>🎯 Objetivo</h3>
+
+<p>
+Aprender a apresentar seu trabalho e descobrir
+como ele pode ajudar outras pessoas.
+</p>
+
+<ul>
+
+<li>Montar um portfólio.</li>
+
+<li>Pesquisar necessidades reais.</li>
+
+<li>Aprender comunicação.</li>
+
+<li>Melhorar seus projetos.</li>
+
+</ul>
+
+
+<div class="exemplo">
+
+<strong>Exemplo:</strong>
+
+Aprender edição de vídeo, design, programação ou
+outra habilidade e criar trabalhos para mostrar.
+
+</div>
+
+
+<div class="meta">
+
+<label>
+<input type="checkbox" data-mes="4">
+Montei um portfólio.
+</label>
+
+</div>
+
+
+<div class="meta">
+
+<label>
+<input type="checkbox" data-mes="5">
+Apresentei meu trabalho.
+</label>
+
+</div>
+
+
+<div class="meta">
+
+<label>
+<input type="checkbox" data-mes="6">
+Consegui meu primeiro resultado.
+</label>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<!-- ETAPA 3 -->
+
+<div class="card">
+
+<h2>📈 7–9 meses</h2>
+
+<p>
+Organizar o dinheiro e melhorar os resultados.
+</p>
+
+<button onclick="abrir('etapa3')">
+Ver detalhes
+</button>
+
+
+<div id="etapa3" class="detalhes">
+
+<h3>🎯 Objetivo</h3>
+
+<p>
+Descobrir o que funciona melhor e evitar gastar
+todo o dinheiro que entra.
+</p>
+
+<ul>
+
+<li>Registrar renda e gastos.</li>
+
+<li>Separar dinheiro para objetivos.</li>
+
+<li>Continuar estudando.</li>
+
+<li>Melhorar sua principal habilidade.</li>
+
+</ul>
+
+
+<div class="exemplo">
+
+<strong>Indicadores:</strong>
+
+Acompanhe sua renda, gastos, dinheiro guardado,
+número de projetos e horas de estudo.
+
+</div>
+
+
+<div class="meta">
+
+<label>
+<input type="checkbox" data-mes="7">
+Organizei meus números.
+</label>
+
+</div>
+
+
+<div class="meta">
+
+<label>
+<input type="checkbox" data-mes="8">
+Descobri o que trouxe melhores resultados.
+</label>
+
+</div>
+
+
+<div class="meta">
+
+<label>
+<input type="checkbox" data-mes="9">
+Criei uma nova meta financeira.
+</label>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<!-- ETAPA 4 -->
+
+<div class="card">
+
+<h2>🏆 10–12 meses</h2>
+
+<p>
+Criar um sistema para continuar crescendo.
+</p>
+
+<button onclick="abrir('etapa4')">
+Ver detalhes
+</button>
+
+
+<div id="etapa4" class="detalhes">
+
+<h3>🎯 Objetivo</h3>
+
+<p>
+Terminar o ano com conhecimento, experiência
+e um plano para continuar.
+</p>
+
+<ul>
+
+<li>Revisar os resultados.</li>
+
+<li>Definir novas metas.</li>
+
+<li>Aprender sobre investimentos.</li>
+
+<li>Planejar o próximo ano.</li>
+
+</ul>
+
+
+<div class="exemplo">
+
+<strong>Pergunta final:</strong>
+
+Qual habilidade, hábito ou atividade realmente
+melhorou meus resultados?
+
+</div>
+
+
+<div class="meta">
+
+<label>
+<input type="checkbox" data-mes="10">
+Revisei meu ano.
+</label>
+
+</div>
+
+
+<div class="meta">
+
+<label>
+<input type="checkbox" data-mes="11">
+Defini novas metas.
+</label>
+
+</div>
+
+
+<div class="meta">
+
+<label>
+<input type="checkbox" data-mes="12">
+Criei meu plano para o próximo ano.
+</label>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<!-- REGRAS -->
+
+<section class="regras">
+
+<h2>💡 Regras importantes</h2>
+
+<div class="regra-grid">
+
+<div class="regra">
+
+<strong>🚫 Evite promessas milagrosas</strong>
+
+<p>
+Desconfie de quem promete dinheiro fácil,
+lucro garantido ou riqueza rápida.
+</p>
+
+</div>
+
+
+<div class="regra">
+
+<strong>📚 Aprenda antes de arriscar</strong>
+
+<p>
+Entenda os riscos antes de colocar dinheiro
+em qualquer investimento.
+</p>
+
+</div>
+
+
+<div class="regra">
+
+<strong>💳 Controle seus gastos</strong>
+
+<p>
+Ganhar mais não adianta se todo o dinheiro
+for gasto sem planejamento.
+</p>
+
+</div>
+
+
+<div class="regra">
+
+<strong>⏳ Pense no longo prazo</strong>
+
+<p>
+Habilidades e bons hábitos podem continuar
+trazendo resultados depois de um ano.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="regras">
+
+<h2>🧭 O caminho</h2>
+
+<div class="aviso">
+
+<strong>
+Aprender → praticar → criar valor → gerar renda
+→ organizar → continuar crescendo.
+</strong>
+
+<p>
+O objetivo não é encontrar um truque mágico,
+mas construir conhecimento e habilidades.
+</p>
+
+</div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+Como Ficar Rico em 1 Ano? • Educação financeira
+
+</footer>
+
+
+<script>
+
+/* ABRIR E FECHAR AS ETAPAS */
+
+function abrir(id) {
+
+    const elemento = document.getElementById(id);
+
+    elemento.classList.toggle("aberto");
+
+}
+
+
+/* SISTEMA DE PROGRESSO */
+
+const caixas =
+document.querySelectorAll('input[type="checkbox"]');
+
+const barra =
+document.getElementById("barra");
+
+const texto =
+document.getElementById("textoProgresso");
+
+
+function atualizarProgresso() {
+
+    let concluidos = 0;
+
+    caixas.forEach(function(caixa) {
+
+        if (caixa.checked) {
+            concluidos++;
+        }
+
+    });
+
+
+    let porcentagem =
+    (concluidos / 12) * 100;
+
+
+    barra.style.width =
+    porcentagem + "%";
+
+
+    texto.innerText =
+    concluidos +
+    " de 12 meses concluídos";
+
+
+    /* SALVAR PROGRESSO */
+
+    const dados = [];
+
+    caixas.forEach(function(caixa) {
+
+        dados.push(caixa.checked);
+
+    });
+
+
+    localStorage.setItem(
+        "progressoSite",
+        JSON.stringify(dados)
+    );
+
+}
+
+
+/* CARREGAR PROGRESSO */
+
+const salvo =
+localStorage.getItem("progressoSite");
+
+
+if (salvo) {
+
+    const dados =
+    JSON.parse(salvo);
+
+
+    caixas.forEach(function(caixa, indice) {
+
+        caixa.checked =
+        dados[indice] || false;
+
+    });
+
+}
+
+
+caixas.forEach(function(caixa) {
+
+    caixa.addEventListener(
+        "change",
+        atualizarProgresso
+    );
+
+});
+
+
+atualizarProgresso();
+
+</script>
+
+</body>
+</html>
