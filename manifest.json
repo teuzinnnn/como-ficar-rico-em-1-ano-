@@ -1,0 +1,13 @@
+{
+  "background_color": "#08111F",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Como Ficar Rico em 1 Ano?",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Ficar Rico 1 Ano",
+  "start_url": "/",
+  "theme_color": "#6ea8fe",
+  "id": "comoficarrico1ano",
+  "description": "Um guia educativo para aprender sobre dinheiro, organização financeira e desenvolvimento de habilidades."
+}
