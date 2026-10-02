@@ -9,5 +9,12 @@
   "start_url": "/",
   "theme_color": "#6ea8fe",
   "id": "comoficarrico1ano",
-  "description": "Um guia educativo para aprender sobre dinheiro, organização financeira e desenvolvimento de habilidades."
+  "description": "Um guia educativo para aprender sobre dinheiro, organização financeira e desenvolvimento de habilidades.",
+"icons": [
+  {
+    "src": "f4aa87c7d912fc9fdd2e80a3b46b0a85a37b6c2e5bafad20762db61e208912dd.png",
+    "type": "image/png"
+  }
+]
 }
+
