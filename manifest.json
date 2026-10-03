@@ -1,21 +1,19 @@
 {
-  "background_color": "#08111F",
-  "dir": "ltr",
-  "display": "standalone",
   "name": "Como Ficar Rico em 1 Ano?",
-  "orientation": "any",
-  "scope": "/",
   "short_name": "Ficar Rico 1 Ano",
-  "start_url": "/",
-  "theme_color": "#6ea8fe",
   "id": "comoficarrico1ano",
+  "start_url": "/como-ficar-rico-em-1-ano-/",
+  "scope": "/como-ficar-rico-em-1-ano-/",
+  "display": "standalone",
   "description": "Um guia educativo para aprender sobre dinheiro, organização financeira e desenvolvimento de habilidades.",
-"icons": [
-  {
-    "src": "file_00000000dbf8820eae320976fe6e87f1.png",
-    "sizes": "192x192",
-    "type": "image/png"
-  }
-]
+  "background_color": "#08111F",
+  "theme_color": "#6EA8FE",
+  "icons": [
+    {
+      "src": "file_00000000dbf8820eae320976fe6e87f1.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
 }
 
